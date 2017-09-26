@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+img.foo{
+  width: 400px;
+  cursor: none;
+}
+#preview{
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  overflow: hidden;
+  position: relative;
+}
+#preview img{
+  position: absolute;
+}
+figure{
+  margin-left: 0;
+  margin-top: 0;
+}

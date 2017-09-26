@@ -1,0 +1,28 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Zoom Plugin | Vanilla JS</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <section>
+      <figure>
+        <img class="foo" src="https://m.bmw.be/content/dam/bmw/common/home/teaser/BMW-4-Series-familylp-home-desktop.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1484626120759.jpg" alt="" />
+      </figure>
+      <div id="preview">
+        <img id="preview-img" src="https://m.bmw.be/content/dam/bmw/common/home/teaser/BMW-4-Series-familylp-home-desktop.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1484626120759.jpg" alt="" />
+      </div>
+    </section>
+
+
+    <script type="text/javascript" src="zoomy.js"></script>
+    <script type="text/javascript">
+      var mineZoom = new Zoomy({
+        type: "Oval"
+      });
+      mineZoom.open();
+    </script>
+
+  </body>
+</html>
